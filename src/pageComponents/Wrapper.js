@@ -25,7 +25,7 @@ const InnerContainer = styled.div`
     padding: 40px 80px;
     align-items: center;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 600px) {
         padding: 20px 40px;
         gap: 40px;
     }

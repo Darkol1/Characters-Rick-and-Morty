@@ -44,7 +44,7 @@ const Attribute = styled.span`
 color: #abb2bf;
 font-size: 14px;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 12px;
 }`
 
@@ -54,7 +54,7 @@ font-size: 24px;
 font-weight: 600;
 margin-bottom: 8px;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 18px;
     margin: 0;
 }
@@ -65,7 +65,7 @@ color: white;
 font-size: 18px;
 font-weight: 600;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 16px;
 }
 `

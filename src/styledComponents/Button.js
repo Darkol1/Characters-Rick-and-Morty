@@ -34,7 +34,7 @@ font-size: 20px;
 font-weight: 700;
 color: #282c34;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 16px;
 }
 `

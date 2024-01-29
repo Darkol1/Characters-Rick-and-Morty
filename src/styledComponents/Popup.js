@@ -53,7 +53,7 @@ const TextContainer = styled.div`
     transform: scale(${({ active }) => (active ? '1' : '0.5')});
     transition: 0.5s all;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 600px) {
         padding: 20px;
         width: 70vw;
     }
@@ -65,7 +65,7 @@ color: white;
 font-size: 24px;
 font-weight: 600;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 18px;
 }
 `
@@ -75,7 +75,7 @@ position: relative;
 align-self: center;
 width: 50%;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     width: 60%;
 }`
 
@@ -83,7 +83,7 @@ const Info = styled.div`
 font-size: 18px;
 color: #a9a9a9;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     font-size: 14px;
 }
 `

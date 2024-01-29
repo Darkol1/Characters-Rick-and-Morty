@@ -28,7 +28,11 @@ export default function Main(){
 
     useEffect(() => {
       fetchData(nextPage);
-        
+      setNameSelect('');
+      setStatusSelect('');
+      setSpeciesSelect('');
+      setTypeSelect('');
+      setGenderSelect('');
     }, [nextPage]);
 
     const handleNextLoad = async () => {
@@ -107,9 +111,15 @@ display: flex;
 gap: 40px;
 width: 100%;
 
-@media (max-width: 1024px) {
-	flex-direction: column;
+@media (max-width: 960px) {
+  flex-direction: column;
+  width: 70%;
   gap: 16px;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  width: 100%;
 }
 `
 
@@ -118,7 +128,16 @@ display: flex;
 gap: 16px;
 width: 100%;
 
-@media (max-width: 1024px) {
+@media (max-width: 960px) {
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 16px;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
 	flex-direction: column;
   gap: 16px;
-}`
+  width: 100%;
+}
+`

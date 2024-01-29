@@ -23,7 +23,7 @@ const Content = styled.h1`
 color: white;
 text-align: center;
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
 	font-size: 20px;
 }
 `
